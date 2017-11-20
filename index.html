@@ -5,17 +5,105 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="style.css">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
   <title>My App Guide</title>
 </head>
 <body>
 
-  <script src="https://code.jquery.com/jquery-3.0.0.js" integrity="sha256-jrPLZ+8vDxt2FnE1zvZXCkCcebI/C8Dt5xyaQBjxQIo=" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="script.js"></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container-logo">
+      <img src="./assets/logo.png" alt="logo">
+    </div>
+    <div class="container-title">
+      <h1 class="display-3">My App Guide</h1>
+      <p class="lead">Your guide through the world of web and mobile applications</p>
+    </div>
+  </div>
+
+  <div class="main-section container-fluid">
+    <!-- First Card ABOUT-->
+    <div class="card">
+      <img class="card-img-top" src="./assets/about.jpeg" alt="Card image cap">
+      <div class="card-body">
+        <h4 class="card-title">About Us</h4>
+        <p class="card-text">My App Guide was created to solve problems. Some of
+          the problems we solve include; guiding students through their web dev learning,
+          connect employers with talented junoir developers, guide non-technical managers
+          through very technical things.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Web Dev Guide</li>
+          <li class="list-group-item">Job Application Guide</li>
+          <li class="list-group-item">Technology & App Guide</li>
+        </ul>
+        <!-- <div class="card-body">
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+      </div> -->
+    </div>
+    <!-- Second Card MISSION-->
+    <div class="card">
+      <img class="card-img-top" src="./assets/mission.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h4 class="card-title">Misson</h4>
+        <p class="card-text">Helping students of web development is the main
+          problem we strive to solve. However, we also help employers find promising
+          junior developers their team. Got a problem? We bet we can solve it.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Create a Diverse Class of Developers</li>
+          <li class="list-group-item">Connect Employers with Employable Developers</li>
+          <li class="list-group-item">Improve Quality of Life through Technology</li>
+        </ul>
+        <!-- <div class="card-body">
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+      </div> -->
+    </div>
+    <!-- Third Card CONTACT-->
+    <div class="card">
+      <img class="card-img-top" src="./assets/contact.jpg"  alt="Card image cap">
+      <div class="card-body">
+        <h4 class="card-title">Contact</h4>
+        <p class="card-text">Have questions? Contact me directly.</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Phone: 571.428.9970</li>
+        <li class="list-group-item">Email: kevin@myappguide.xyz</li>
+        <li class="list-group-item">Github: herrerake</li>
+      </ul>
+      <!-- <div class="card-body">
+      <a href="#" class="card-link">Card link</a>
+      <a href="#" class="card-link">Another link</a>
+    </div> -->
+  </div>
+  <!-- Fourth Card COMING SOON-->
+  <div class="card">
+    <img class="card-img-top" src="./assets/coming-soon.jpeg"  alt="Card image cap">
+    <div class="card-body">
+      <h4 class="card-title">Coming Soon!</h4>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Blog</li>
+      <li class="list-group-item">Portfolio</li>
+      <li class="list-group-item">Events</li>
+    </ul>
+    <!-- <div class="card-body">
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div> -->
+</div>
+</div>
+<div class="container-title">
+</div>
+<script src="https://code.jquery.com/jquery-3.0.0.js" integrity="sha256-jrPLZ+8vDxt2FnE1zvZXCkCcebI/C8Dt5xyaQBjxQIo=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </body>
 </html>

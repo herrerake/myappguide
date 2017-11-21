@@ -12,17 +12,17 @@ body {
 
 .card {
   border-radius: 1.25em;
-  width: 20rem;
+  width: 30rem;
   background-color: rgba(255, 255, 255, 0.3);
   border: 10px solid rgba(0, 0, 0, .125);
 }
 
-.card:nth-child(n+1){
+/*.card:nth-child(n+1){
   margin-left: 2rem;
-}
+}*/
 
 img {
-  height: 185px;
+  height: 205px;
   width: auto;
 }
 
@@ -32,7 +32,7 @@ img {
   width: auto;
   padding-top: 20px;
   padding-bottom: 10px;
-  opacity: 0.77;
+  background-color: rgba(255, 255, 255, 0.3);
   border: 10px solid rgba(0, 0, 0, .125);
   border-radius: 1.25em;
 }
@@ -45,4 +45,14 @@ img {
 .container-title {
   padding-top: 30px;
   padding-left: 30px;
+}
+
+.page-header {
+  padding-top: 40px;
+}
+
+#dobetter {
+  font-size: 16px;
+  font-style: italic;
+  padding-left: 10px;
 }

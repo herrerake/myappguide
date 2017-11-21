@@ -15,14 +15,11 @@ body {
   width: 30rem;
   background-color: rgba(255, 255, 255, 0.3);
   border: 10px solid rgba(0, 0, 0, .125);
+  margin-left: 15px;
 }
 
-/*.card:nth-child(n+1){
-  margin-left: 2rem;
-}*/
-
 img {
-  height: 205px;
+  height: 225px;
   width: auto;
 }
 
@@ -35,6 +32,7 @@ img {
   background-color: rgba(255, 255, 255, 0.3);
   border: 10px solid rgba(0, 0, 0, .125);
   border-radius: 1.25em;
+  margin: 20px 40px;
 }
 
 .container-logo {
@@ -55,4 +53,40 @@ img {
   font-size: 16px;
   font-style: italic;
   padding-left: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .jumbotron {
+    margin: 5% 5%;
+  }
+
+  .container-fluid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    margin-bottom: 30px;
+    margin-left: none;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .card {
+    width: auto;
+  }
+
+  .container-logo {
+    padding-left: 10px;
+  }
+
+  .container-logo img {
+    height: 75%;
+    width: 75%;
+  }
+
+  .page-header {
+    padding-top: 20px;
+  }
 }
